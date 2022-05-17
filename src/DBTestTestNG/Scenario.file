@@ -1,0 +1,23 @@
+ Scenario :Database Testing MYSQL using Selenium Webdriver,Testng
+    General:
+       1- Integrate TestNG with JDBC to perform Database Testing
+       2- Build framework including both single and multi browser
+       3- Create a excel utils to work with an Excel sheet.
+       4- Create a database utils for Database Automation
+       4- Read states from excel and Write test results to excel
+       5- Add screen shots  for failure
+       6- Add reports and failed reports
+
+    Test1
+    1- Login to "https://demo.mersys.io/"
+    2- Navigate to States page and get the first ten states of US
+    3- Get the list of sates of US from excel and validate match
+
+    Test2
+    1- Establish a connection to the database using JDBC
+    2- Create a states MySQL table, insert the data into it get them by MySQL queries
+
+   Test3
+    Verify the results match each other
+
+

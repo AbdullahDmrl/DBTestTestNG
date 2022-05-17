@@ -1,0 +1,22 @@
+ Scenario :
+    General:
+       1- Build framework including both single and multi browser
+       2- Read search items(ipod, mac, samsung) from excel
+       3- Write test results to excel
+       4- Add screen shots  for failure
+       5- Add reports and failed reports
+
+    Test1
+    1- Navigate to "http://opencart.abstracta.us/index.php?route=account/login"
+    2- Search items(ipod, mac, samsung)
+    3-Validate all results for each search are the same with search item
+
+    Test2
+    4- Read search items from excel
+    4- First result add to cart
+    5- Go to shopping cart
+    5- Go to Checkout
+    6- Fill in checkout steps and confirm order
+    7- Validate your order is successfully placed
+
+
